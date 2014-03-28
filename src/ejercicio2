@@ -1,0 +1,21 @@
+#!/usr/bin/python
+#! encoding: UTF-8
+#crear fichero con 
+import moduloerror
+import sys
+ if len(sys.argv)==2:
+    fichero.nombre=str(sys.argv[1])
+  else:
+    fichero.nombre=str(raw_input('Introduzca el nombre del fichero: '))
+  fichero=open(nombre,"w")
+  nro_test=(10,100,1000,100000,1000000)
+  umbral={0.1,0.01,0.001,0.0001,0.000001}
+  for nro_test in umbral:
+    fichero.write(umbral[nro_test] [0])
+    fichero.write(umbral[nro_test] [1])
+    fichero.write(umbral[nro_test] [2])
+    fichero.write(umbral[nro_test] [3])
+    fichero.write(umbral[nro_test] [4])
+  fichero.close()
+
+
